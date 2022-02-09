@@ -14,7 +14,7 @@
     border: 1px solid white;
     background-color: var(--backround);
     text-align: center;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
     display: flex;
     flex: 0 0 100%;
@@ -33,3 +33,9 @@
     
 }
 
+.nested-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
