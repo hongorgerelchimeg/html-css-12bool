@@ -5,11 +5,15 @@
 }
 
 [class*="col-"] {
-    height: 50px;
+    height: 40px;
     border: 1px solid white;
     background-color: rgb(41, 88, 217);
     text-align: center;
     font-size: 1em;
-    line-height: 4;
+    color: white;
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: center;
+    align-items: center;
 }
 
