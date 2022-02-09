@@ -9,6 +9,13 @@
     box-sizing: border-box;
 }
 
+.container .row:last-child {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    line-height: 1.2;
+}
 [class*="col-"] {
     height: 40px;
     border: 1px solid white;
@@ -39,3 +46,4 @@
     justify-content: center;
 
 }
+
