@@ -17,6 +17,7 @@ h2 {
     font-size: 1.2em;
     line-height: 1.2;
 }
+
 [class*="col-"] {
     height: 40px;
     border: 1px solid white;
@@ -42,7 +43,7 @@ h2 {
 }
 
 .nested-container {
-    width: 90%;
+    width: calc(100% - 20px);
     display: flex;
     justify-content: center;
 
